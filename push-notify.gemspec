@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matthew M. Boedicker"]
   s.date = %q{2010-07-01}
-  s.description = %q{Notified pubsubhubbub hubs of updated content}
+  s.description = %q{Notifies pubsubhubbub hubs of updated content}
   s.email = %q{matthewm@boedicker.org}
   s.extra_rdoc_files = [
     "README.textile"
@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Notified pubsubhubbub hubs of updated content}
+  s.summary = %q{Notifies pubsubhubbub hubs of updated content}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

@@ -2,8 +2,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = 'push-notify'
-    gemspec.summary = 'Notified pubsubhubbub hubs of updated content'
-    gemspec.description = 'Notified pubsubhubbub hubs of updated content'
+    gemspec.summary = 'Notifies pubsubhubbub hubs of updated content'
+    gemspec.description = 'Notifies pubsubhubbub hubs of updated content'
     gemspec.email = 'matthewm@boedicker.org'
     gemspec.homepage = 'http://github.com/mmb/push-notify'
     gemspec.authors = ['Matthew M. Boedicker']
