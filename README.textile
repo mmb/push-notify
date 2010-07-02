@@ -1,0 +1,21 @@
+Ruby library that handles section 7.1 only of pubsubhubbub (notifying hubs about
+new content).
+
+http://pubsubhubbub.googlecode.com/svn/trunk/pubsubhubbub-core-0.3.html#anchor9
+
+<pre>
+<code>
+require 'push-notify'
+
+PushNotify::Content.new(
+  'http://mycontent.com/atom.xml',
+  'http://myothercontent.com/rss.xml').tell(
+    'http://somehub.com/publish',
+    'http://someotherhub.com/publish')
+
+PushNotify::Content.new('http://mycontent.com/atom.xml').tell(
+  'http://somehub.com/publish') do |resp|
+  puts resp
+end
+</code>
+</pre>
